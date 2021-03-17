@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+span {
+  font-weight: 700;
+  color: #f11dbc;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.botao > a,
+.midias-sociais__container-link {
+  text-decoration: none;
+  color: #f11dbc;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.botao {
+  margin-top: 35px;
+  background-color: white;
+  border: #000000 solid 2px;
+  padding: 10px 25px 10px 25px;
+  margin-left: 130px;
+}
+
+.cabecalho {
+  background-image: url("../imagem/banner.png");
+  background-size: auto;
+  width: 100%;
+  height: 400px;
+}
+
+.cabecalho__titulo {
+  font-size: 3rem;
+  margin-bottom: 25px;
+  margin-right: 40%;
+  padding-top: 100px;
+  padding-right: 0px;
+  color: black;
+}
+
+.cabecalho__texto {
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+.linha-do-tempo {
+  height: 200px;
+}
+.destaque {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.sobre-mim,
+.midias-sociais {
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sobre-mim__titulo {
+  font-size: 3rem;
+  color: #000000;
+  margin-bottom: 50px;
+  padding-top: 80px;
+}
+
+.sobre-mim__descricao,
+.sobre-mim__habilidades {
+  width: 40%;
+  line-height: 1.5;
+}
+
+.midias-sociais__container {
+  text-align: center;
+  width: 20%;
+  background-color: #f11dbc;
+  padding: 15px;
+}
+
+.midias-sociais__container-img {
+  margin-bottom: 20px;
+}
+
+.midias-sociais__container-link,
+.midias-sociais__container-paragrafo {
+  color: white;
+}
+
+.midias-sociais__container-paragrafo {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.rodape__paragrafo {
+  text-align: center;
+  color: #868585;
+  margin-bottom: 30px;
+}
